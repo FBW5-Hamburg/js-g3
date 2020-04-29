@@ -1,4 +1,4 @@
-## canvas Fly Baby Game - API News and Weather - Vanilla JvaScript
+## canvas Fly Baby Game - API News and Weather - Vanilla JavaScript
 
 Create Registration page, Game and API for News and Weather in Vanilla JavaScript Project.
 
