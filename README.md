@@ -18,3 +18,6 @@ In addition to the game, the user also has the ability to read the headlines of 
 
 ## Authors
 Alen and Manish
+
+## Our links
+https://fbw5-hamburg.github.io/js-g3/
