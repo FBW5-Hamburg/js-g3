@@ -45,7 +45,7 @@ function showError(error) {
 
 // GET weather from api provider
 function getWeather(latitude, longitude) {
-    let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
 
     fetch(api)
         .then(function (response) {
@@ -97,7 +97,7 @@ tempElement.addEventListener('click', function () {
 
 async function getNews() {
     // getting the elements from html to be filled with data
-    let url = 'http://newsapi.org/v2/top-headlines?' + 'country=us&' + 'apiKey=49930c4220cf4050a021dc4c581f54ac';
+    let url = 'https://newsapi.org/v2/top-headlines?' + 'country=us&' + 'apiKey=49930c4220cf4050a021dc4c581f54ac';
     let data = await fetch(url)
 
     if (data.status == 200) {
